@@ -1,5 +1,9 @@
 function minDate(dates) {
-  //write you code here
+  //write you code her
+	 // Sort the dates in ascending order
+    const sortedDates = dates.slice().sort();
+    // Return the first date in the sorted array
+    return sortedDates[0];
 }
 
 // Do not change the code
